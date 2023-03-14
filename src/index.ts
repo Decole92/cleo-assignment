@@ -1,6 +1,5 @@
-import express from 'express';
-import http from 'http';
-import bodyParser from 'body-parser';
+import * as express from 'express';
+import * as bodyParser from 'body-parser';
 import { createHandler, fetchFunc } from '../src/controller/cleo-assignment-handler';
 import { FetchFunction } from 'typing';
 
